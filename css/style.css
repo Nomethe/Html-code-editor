@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.ha1 {
+    font-size: unset;
+    text-align: center;
+    width: 100vw;
+    height: 66px;
+    padding: 5px 0px;
+    color: white;
+    background-color: tomato;
+    margin-top: 0;
+    font-size: 2.5rem;
+}
+
+#htmlinput {
+    resize: none;
+    width: 95vw;
+    align-items: center;
+    height: 225px;
+    border: 1px black solid;
+    border-radius: 5px;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 1.396742671%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.code {
+    border: none;
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+    font-size: 1.6em;
+    margin-bottom: 23px;
+}
+
+#htmloutput {
+    width: max-content;
+    height: max-content;
+}
+
+@media screen and (max-width: 428px) {
+    .ha1 {
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 408px) {
+    .ha1 {
+        font-size: 2rem;
+        padding: 10px 0px;
+    }
+}
+
+@media screen and (max-width: 431px) {
+    .ha1 {
+        font-size: 1.8rem;
+        padding: 12px 0px;
+    }
+}
